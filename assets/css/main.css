@@ -281,6 +281,11 @@ h4{
         list-style: none;
     }
 
+    h3{
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+
     .flex-2 li{
         color: white;
     }
