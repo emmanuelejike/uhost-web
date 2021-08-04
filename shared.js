@@ -1,4 +1,4 @@
-alert('Hello this  web-page is secured with google for any lose click ok to comfirm ');
+// alert('Hello this  web-page is secured with google for any lose click ok to comfirm ');
 var backdrop = document.querySelector(".backdrop");
 var modal = document.querySelector(".modal");
 var modalNoButton = document.querySelector(".modal-action--negative");

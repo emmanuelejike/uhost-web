@@ -276,6 +276,69 @@ h4{
 }
 
 @media screen and    (max-width: 768px){
+    .backdrop{
+        position: fixed;
+        display: none;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0,0,0,0.5);
+    }
+    
+    .modal{
+        position: fixed;
+        display: none;
+        z-index: 200;
+        top: 40;
+        left: 0;
+        width: fit-content;
+        background: white;
+        padding: rem;
+        border: 1px solid #ccc;
+        box-shadow: 1px 1px 1px rgb(0, 0, 0, 0.5);
+    }
+    
+    .modal-title{
+        text-align: center;
+        margin: 0 0 1rem 0;
+    }
+    
+    .modal-actions{
+        text-align: center;
+    }
+    
+    .modal-action{
+        border: 1px solid green;
+        text-decoration: none;
+        background: #0e4f1f;
+        color: white;
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+    }
+    
+    .modal-action:hover,
+    .modal-action:active{
+        background: #128f3393;
+        border-color: #2ddf5c;
+    }
+    
+    .modal-action--negative{
+        background: red;
+        border-color: red;
+        padding: 0.5rem 1rem;
+        
+    }
+    
+    .modal-action--negative:hover,
+    .modal-action--negative:active{
+        background: #ff5454;
+        border-color: #ff5454;
+    }
+    
+
+
     .logo{
         text-transform: uppercase;
         position: absolute;
