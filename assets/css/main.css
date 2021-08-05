@@ -212,7 +212,8 @@ h3{
     color: white;
 }
 
-button{
+
+.btn-btn-1-1{
     padding: 4px 40px;
     margin: 10px 0px;
     background: white;
@@ -275,7 +276,7 @@ h4{
     font-style: italic;
 }
 
-@media screen and    (max-width: 768px){
+@media screen and    (max-width: 600px){
     .backdrop{
         position: fixed;
         display: none;
@@ -378,8 +379,10 @@ h4{
 
 
     .header-content-product-review{
+        text-align: center;
         font-size: 28px;
-        left: 70;
+        position: absolute;
+        left: 60;
         top: 200;
     }
 
@@ -427,7 +430,7 @@ h4{
         color: white;
     }
 
-    button{
+    .btn-btn-1-1{
         padding: 6px 70px;
         margin: 10px 0px;
         background: white;
