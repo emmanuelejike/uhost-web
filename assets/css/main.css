@@ -281,7 +281,7 @@ h4{
     font-style: italic;
 }
 
-@media screen and    (max-width: 600px){
+@media screen and    (max-width: 768px){
     .backdrop{
         position: fixed;
         display: none;
@@ -297,7 +297,7 @@ h4{
         position: fixed;
         display: none;
         z-index: 200;
-        top: 40;
+        top: 100;
         left: 0;
         width: fit-content;
         background: white;
@@ -364,6 +364,7 @@ h4{
 
     .top-nav{
         padding: 15px 0px;
+        width: 50%;
     }
 
     .list-nav{
