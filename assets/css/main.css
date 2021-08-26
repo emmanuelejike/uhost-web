@@ -342,6 +342,13 @@ h4{
         background: #ff5454;
         border-color: #ff5454;
     }
+
+    .header-nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
     
 
 
@@ -349,7 +356,7 @@ h4{
         text-transform: uppercase;
         position: absolute;
         top: -20;
-        left: 0;
+        left: 100;
         margin-bottom: 14px;
         padding: 0px 10px;
         font-size: 30px;
