@@ -349,13 +349,18 @@ h4{
         text-transform: uppercase;
         position: absolute;
         top: -20;
-        left: 130;
+        left: 0;
         margin-bottom: 14px;
-        padding: 0px;
+        padding: 0px 10px;
+        font-size: 30px;
+    }
+
+    .top-nav{
+        padding: 15px 0px;
     }
 
     .list-nav{
-         padding: 8px 10px;
+         padding: 12px 10px;
          list-style: none;
     }
     
