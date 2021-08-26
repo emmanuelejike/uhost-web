@@ -170,6 +170,8 @@ a.hosting-nav{
 
 .choose-a-plan{
     background-color: rgb(10, 77, 10);
+    border: none;
+    outline: none;
     text-transform: uppercase;
     padding: 4px 8px;
     display: inline-block;
